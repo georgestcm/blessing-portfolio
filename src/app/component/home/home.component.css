@@ -48,6 +48,8 @@ div .top-header img[src="/assets/MBlogo.jpeg"] {
 
 .top-body {
     padding: 20px;
+    background-color: #8080801c;
+    margin-bottom: 20px;
 }
 
 .buttom {
@@ -111,6 +113,11 @@ div .profile-picture div {
     top: 30px;
     right: 50px;
     margin-top: 30px;
+}
+
+.bng {
+    background-image: url('/assets/freelance.png');
+    background-size: contain;
 }
 
 .profile-design2 {
@@ -321,7 +328,7 @@ div .buttom {
         font-size: 40px;
         position: absolute;
     left: 115%;
-    bottom: 44px;
+    bottom: 90px;
     cursor: pointer;
     transition: 1s;
 }
@@ -366,4 +373,10 @@ div .buttom {
 .working-img {
     height: 150px;
     width: auto;
+}
+
+.move-right {
+    position: relative;
+    left: 33px;
+    top: 14px;
 }
