@@ -1,0 +1,102 @@
+<div class="container">
+    <div class="top">
+        <div class="top-header">
+            <a href="/"> <img src="/assets/MBlogo.jpeg" alt="name logo"></a>
+            <div class="links font2">
+                <a href="about-me.html">About me</a>
+                <a href="resume.html">Resume</a>
+                <a (click)="openContact()">Contact</a>
+            </div>
+            <div class="profile-links">
+                <img class="logo-size" src="/assets/linkedin-icon.png" alt="LinkedIn Profile">
+                <img class="logo-size" src="/assets/github.png" alt="GitHub Profile">
+                <img class="logo-size" src="/assets/twitter.png" alt="twitter logo">
+            </div>
+        </div>
+        <div class="top-body">
+            <div class="profile-picture" *ngIf="showTechListSwitcher">
+                <div class="profile-design1 profile-design font3"> <span>2+</span> <br>
+                <p class="font1 font10">Years Experience</p></div>
+                <img src="/assets/profile-picture.jpeg" alt="Profile Picture">
+                <div class="profile-design2 profile-design font2 hire-me"> Hire me</div>
+            </div>
+            <div class="profile-description" *ngIf="showTechListSwitcher">
+                <p class="font3 margin-buttom">Hi, I'm Blessing Mbony and I am a <span class="color-white brown-background font3 margin-buttom">Software Developer</span>.</p>
+                <p class="font1 personal-description">I'm a Software Developer based in Douala, Cameroon. I am an experienced developer with many
+                    years of experience coupled with an understanding of industry standards and best practices.
+                </p>
+                <div class="switcher"><span class="material-symbols-outlined" (click)="showTechList()">
+                    arrow_circle_right
+                    </span></div>
+            </div>
+            <div class="tech-list" *ngIf="!showTechListSwitcher">
+                <div class="switcher-two"><span class="material-symbols-outlined" (click)="showTechList()">
+                    arrow_circle_left
+                    </span></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="buttom">
+        <h2 class="work">PROJECTS</h2>
+        <p class="font1 project-sub-title">Check out some of my works
+        </p>
+        <!--<div class="options" >
+            <button class="button option-button button-margin-right font1">All</button>
+            <button class="button option-button button-margin-right font1">HTML</button>
+            <button class="button option-button button-margin-right font1">CSS</button>
+            <button class="button option-button button-margin-right font1">HTML&CSS</button>
+            <button class="button option-button button-margin-right font1">HTML&CSS&JavaScript</button>
+            <button class="button option-button button-margin-right font1">Angular</button>
+            <button class="button option-button button-margin-right font1">WordPress</button>
+            <button class="button option-button button-margin-right font1">Wix</button>
+        </div> -->
+        <div class="buttom-body" *ngIf="false">
+            <div class="project1 projects">
+                <img class="project-image" src="/assets/Projects.jpeg" alt="">
+                <p class="font2"> Data and Statistics</p>
+                <button class="option-button font1"> HTML$CSS</button>
+                <button class="option-button font1"> +2</button>
+                <p class="option-button font1 PD-margin-right">Calculator site made simple html and css.</p>
+            </div>
+
+            <div class="project2 projects">
+                <img class="project-image" src="/assets/Projects.jpeg" alt="">
+                <p class="font2"> Interior Design</p>
+                <button class="option-button font1"> HTML$CSS</button>
+                <button class="option-button font1"> JavaScript</button>
+                <p class="option-button font1 PD-margin-right">Interior Design Website i buikt for a startup in my area.</p>
+            </div>
+            <div class="project3 projects">
+                <img class="project-image" src="/assets/Projects.jpeg" alt="">
+                <p class="font2"> Calculator</p>
+                <button class="button option-button font1"> HTML$CSS</button>
+                <button class="button option-button font1"> JavaScript</button>
+                <button class="button option-button font1">Angular</button>
+                <p class="option-button font1 PD-margin-right">Interior Design Website i buikt for a startup in my area.</p>
+            </div>
+            <div class="project4 projects">
+                <img class="project-image" src="/assets/Projects.jpeg" alt="">
+                <p class="font2"> Shopping</p>
+                <button class="button option-button font1"> WordPress</button>
+                <button class="button option-button font1"> WebDesign</button>
+                <p class="option-button font1 PD-margin-right">Shopping site i created for a startUp in my area.</p>
+            </div>
+
+        </div>
+        <!--<button class="reach-me font1 button-margin-top">
+            <img class="logo-size" src="/assets/preview.png" alt="logo-size"> Preview
+        </button>
+        <button class="reach-me font1 button-margin-top">
+            <img class="logo-size" src="/assets/github_logo.png" alt="logo-size"> GitHub Report
+        </button> -->
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p class="footer1"><img src="/assets/MBlogo.jpeg" alt="website logo"></p>
+        </div>
+    </footer>
+</div>

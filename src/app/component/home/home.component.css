@@ -1,0 +1,348 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif 'Times New Roman';
+}
+
+.container {
+        height: 100%;
+        width: 100%;
+}
+
+.font1 {
+     font-size: 15px;
+    color: rgb(38, 37, 37);
+}
+
+.font2 {
+    margin-left: 35%;
+}
+
+.font3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo-size {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.top-header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #80808012;
+}
+
+div .top-header img[src="/assets/MBlogo.jpeg"] {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.top-body {
+    padding: 20px;
+}
+
+.buttom {
+
+}
+
+div .links {
+
+}
+
+div .links a {
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+div .profile-links {
+   margin-left: auto;
+   margin-right: 15px;
+}
+
+div .profile-links a {
+    text-decoration: none;
+    color: black;
+}
+
+div .profile-links img {
+    margin-left: 20px;
+    align-items: end;
+    justify-items: end;
+}
+
+div .profile-picture {
+    display: inline-block;
+    margin-left: 130px;
+}
+
+div .profile-description {
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    width: 33%;
+    margin-left: 90px;
+
+}
+
+div .profile-picture div {
+    background-color: white;
+    color: rgb(144, 92, 39);
+    border-radius: 10%;
+    position: relative;
+    z-index: inherit;
+    box-shadow: 4px 4px;
+    text-align: center;
+    border: 1px solid #8080801c;
+}
+
+.profile-design1 {
+    height: 70px;
+    width: 110px;
+    top: 30px;
+    right: 50px;
+    margin-top: 30px;
+}
+
+.profile-design2 {
+    height: 50px;
+    width: 90px;
+    bottom: 30px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div .profile-picture img {
+    height: auto;
+    width: 426px;
+}
+
+.margin-buttom {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.brown-background {
+    color: white;
+    background-color:  rgb(167, 113, 59);
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+div .profile-description {
+    align-content: center;
+}
+
+div .profile-description span {
+    display: inline-block;
+    margin: 0;
+}
+
+div .profile-description button {
+    height: 30px;
+    width: 120px;
+    color: black;
+    border-radius: 5px;
+    border-color: rgb(255, 253, 253);
+    background-color:  rgb(252, 242, 230);
+    margin-right: 15px;
+    border-color: rgb(144, 92, 39);
+    border-width: 1px;
+}
+
+.personal-description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: grey;
+    text-align: center;
+}
+
+.button {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-color: rgb(144, 92, 39);
+}
+
+.button :hover {
+    color: white;
+    background-color: rgb(176, 124, 72);
+}
+
+div .buttom {
+ text-align: center;
+}
+
+.work {
+    margin-top: 30px;
+
+}
+
+.button-margin-right {
+    margin-right: 60px;
+}
+
+.option-button {
+    height: 25px;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.buttom-body {
+    display: flex;
+}
+
+.buttom-body p {
+    margin-bottom: 0;
+}
+
+.project-image {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.PD-margin-right {
+    margin-right: 50px;
+}
+
+.button-margin-top {
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(144, 92, 39);
+    border-color: rgb(237, 235, 235);
+    border-width: 1px;
+    background-color:  rgb(252, 242, 230);
+}
+
+
+
+
+.footer {
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(147, 100, 53);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer1 {
+    display: inline-block;
+    padding-left: 18px;
+}
+
+.footer2 {
+    float: right;
+    display: inline-block;
+    padding-right: 100px;
+}
+
+.footer img {
+    height: 30px;
+    border-radius: 50%;
+}
+.hire-me {
+    left: 233px;
+}
+.font10 {
+    font-size: 10px !important;
+}
+
+.project-sub-title {
+    margin: 0;
+    color: grey;
+}
+
+@media screen and (max-width: 1004px) {
+    .top-body {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .profile-picture {
+        display: block !important;
+        margin-left: 0 !important;
+    }
+
+    .profile-description {
+        width: unset !important;
+        position: unset !important;
+        margin-left: 0 !important;
+    }
+
+    .profile-links {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 577px) {
+    .profile-picture {
+        zoom: 65%;
+    }
+}
+
+.switcher span {
+        font-size: 40px;
+        position: absolute;
+    left: 115%;
+    bottom: 44px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.switcher-two span {
+    font-size: 40px;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.switcher-two span:hover {
+    transition: 1s;
+    color: rgb(167, 113, 59);
+    cursor: pointer;
+}
+
+.switcher-two {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.switcher span:hover {
+    transition: 1s;
+    color: rgb(167, 113, 59);
+}
+
+.tech-list {
+    height: 492px;
+    width: 100%;
+    background-color: #212121;
+    border-radius: 14px;
+}
