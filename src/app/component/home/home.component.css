@@ -296,7 +296,14 @@ div .buttom {
     .links {
         display: none;
     }
-
+     .switcher {
+        display: none;
+    }
+    .mobile-menu {
+        display: block !important;
+        margin-left: auto;
+    margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 577px) {
@@ -345,4 +352,8 @@ div .buttom {
     width: 100%;
     background-color: #212121;
     border-radius: 14px;
+}
+
+.mobile-menu {
+    display: none;
 }
