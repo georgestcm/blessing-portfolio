@@ -1,0 +1,70 @@
+.top-header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #80808012;
+}
+
+div.top-header img[src="/assets/MBlogo.jpeg"] {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.profile-links {
+    margin-left: auto;
+    margin-right: 15px;
+ }
+
+ .font2 {
+    margin-left: 35%;
+}
+ div.profile-links a {
+     text-decoration: none;
+     color: black;
+ }
+
+ div.profile-links img {
+     margin-left: 20px;
+     align-items: end;
+     justify-items: end;
+ }
+
+ @media screen and (max-width: 1004px) {
+
+    .mobile-menu {
+        display: block !important;
+        margin-left: auto;
+    margin-right: 15px;
+    }
+
+    .profile-links {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+}
+@media screen and (max-width: 577px) {
+
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+
+.logo-size {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+div.links a {
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
