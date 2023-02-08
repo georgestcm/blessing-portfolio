@@ -50,6 +50,11 @@ div .top-header img[src="/assets/MBlogo.jpeg"] {
     padding: 20px;
     background-color: #8080801c;
     margin-bottom: 20px;
+    border-radius: 0 0 4% 4%;
+    background:
+        -webkit-radial-gradient(-19% center, circle, white 0, white 124px, transparent 50px),
+        -webkit-radial-gradient(119% center, circle, white 0, white 124px, transparent 50px) #8080801c;
+    background-clip: padding-box;
 }
 
 .buttom {
@@ -246,8 +251,6 @@ div .buttom {
     width: 100vw;
     background-color: rgb(147, 100, 53);
     color: white;
-    margin-top: 50px;
-    margin-bottom: 0;
     display: flex;
     align-items: center;
 }
@@ -362,7 +365,7 @@ div .buttom {
 .tech-list {
     height: 492px;
     width: 100%;
-    background-color: #212121;
+    background-color: black;
     border-radius: 14px;
 }
 
@@ -380,3 +383,30 @@ div .buttom {
     left: 33px;
     top: 14px;
 }
+
+.projects {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #8080801c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.projects ul{
+  padding: 0;
+  text-align: left;
+}
+
+.projects ul li{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  .projects ul li:nth-child(1) {
+    background-image: url('/assets/resifia.jpeg');
+    background-size: contain;
+    border-radius: 10px;
+  }
