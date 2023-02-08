@@ -338,7 +338,7 @@ div .buttom {
 
 .switcher-two span {
     font-size: 40px;
-    color: white;
+    color: black;
     transition: 1s;
     cursor: pointer;
 }
@@ -365,7 +365,7 @@ div .buttom {
 .tech-list {
     height: 492px;
     width: 100%;
-    background-color: black;
+    background-color: #80808000;
     border-radius: 14px;
 }
 
