@@ -355,6 +355,7 @@ div .buttom {
     display: flex;
     justify-content: end;
     align-items: center;
+    z-index: 1;
 }
 
 .switcher span:hover {
@@ -367,6 +368,20 @@ div .buttom {
     width: 100%;
     background-color: #80808000;
     border-radius: 14px;
+    display: flex;
+}
+
+.tech-list-content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 81px;
+    right: 80px;
+}
+
+.tech-list ul li {
+    list-style-type: none;
 }
 
 .mobile-menu {
@@ -410,3 +425,46 @@ div .buttom {
     background-size: contain;
     border-radius: 10px;
   }
+
+  .logo {
+    height: 40px;
+    width: auto;
+    position: relative;
+  }
+  .tech-list-content ul li {
+    position: relative;
+  }
+  .tech-list-content ul li:nth-child(2){
+    right: 90px
+  }
+
+  .tech-list-content ul li:nth-child(3){
+    right: 120px;
+    top: 29px;
+  }
+
+  .tech-list-content ul li:nth-child(4){
+    right: 83px;
+    top: 46px;
+  }
+
+  .tech-list-content ul li:nth-child(5){
+    right: 2px;
+    top: 46px;
+  }
+
+  .tech-list-content ul li:nth-child(6){
+    left: 90px;
+    bottom: 36px;
+  }
+
+  .tech-list-content ul li:nth-child(7){
+    left: 122px;
+    bottom: 146px;
+  }
+
+  .tech-list-content ul li:nth-child(8){
+    left: 88px;
+    bottom: 259px;
+  }
+
