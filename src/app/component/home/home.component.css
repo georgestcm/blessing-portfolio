@@ -103,7 +103,7 @@ div .profile-description {
 
 div .profile-picture div {
     background-color: white;
-    color: rgb(144, 92, 39);
+    color: rgb(51, 39, 144);
     border-radius: 10%;
     position: relative;
     z-index: inherit;
@@ -148,7 +148,7 @@ div .profile-picture img {
 
 .brown-background {
     color: white;
-    background-color:  rgb(167, 113, 59);
+    background-color:  rgb(51, 39, 144);
     display: inline-block;
     margin-bottom: 0;
 }
@@ -167,10 +167,10 @@ div .profile-description button {
     width: 120px;
     color: black;
     border-radius: 5px;
-    border-color: rgb(255, 253, 253);
-    background-color:  rgb(252, 242, 230);
+    border-color: rgb(253, 253, 255);
+    background-color:  rgb(253, 253, 255);
     margin-right: 15px;
-    border-color: rgb(144, 92, 39);
+    border-color:rgb(51, 39, 144);
     border-width: 1px;
 }
 
@@ -184,12 +184,12 @@ div .profile-description button {
 .button {
     transition-duration: 0.4s;
     cursor: pointer;
-    border-color: rgb(144, 92, 39);
+    border-color: rgb(51, 39, 144);
 }
 
 .button :hover {
     color: white;
-    background-color: rgb(176, 124, 72);
+    background-color: rgb(51, 39, 144);
 }
 
 div .buttom {
@@ -237,10 +237,10 @@ div .buttom {
     margin-right: 30px;
     height: 30px;
     border-radius: 5px;
-    border-color: rgb(144, 92, 39);
-    border-color: rgb(237, 235, 235);
+    border-color: rgb(51, 39, 144);
+    border-color: rgb(253, 253, 255);
     border-width: 1px;
-    background-color:  rgb(252, 242, 230);
+    background-color:  rgb(253, 253, 255);
 }
 
 
@@ -249,7 +249,7 @@ div .buttom {
 .footer {
     height: 50px;
     width: 100vw;
-    background-color: rgb(147, 100, 53);
+    background-color: rgb(51, 39, 144);
     color: white;
     display: flex;
     align-items: center;
@@ -345,7 +345,7 @@ div .buttom {
 
 .switcher-two span:hover {
     transition: 1s;
-    color: rgb(167, 113, 59);
+    color: rgb(51, 39, 144);
     cursor: pointer;
 }
 
@@ -360,7 +360,7 @@ div .buttom {
 
 .switcher span:hover {
     transition: 1s;
-    color: rgb(167, 113, 59);
+    color: rgb(51, 39, 144);
 }
 
 .tech-list {
