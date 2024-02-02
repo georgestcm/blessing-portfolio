@@ -103,7 +103,7 @@ div .profile-description {
 
 div .profile-picture div {
     background-color: white;
-    color:#016db5;
+    color:#180552;
     border-radius: 10%;
     position: relative;
     z-index: inherit;
@@ -160,7 +160,14 @@ div .profile-description {
 
 div .profile-description span {
     display: inline-block;
+    margin: 0; 
+}
+
+div .profile-description p span {
+    display: inline-block;
     margin: 0;
+    color: white;
+    background-color: #B9732F;
 }
 
 div .profile-description button {
@@ -250,7 +257,7 @@ div .buttom {
 .footer {
     height: 50px;
     width: 100vw;
-    background-color: #016db521;
+    background-color: #061a6b21;
     color: white;
     display: flex;
     align-items: center;
