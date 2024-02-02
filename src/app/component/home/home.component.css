@@ -38,7 +38,7 @@ body {
     border-bottom: 1px solid #80808012;
 }
 
-div .top-header img[src="/assets/blessingLogo.jpeg"] {
+div .top-header img[src="/assets/MBlogo.jpeg"] {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -48,13 +48,12 @@ div .top-header img[src="/assets/blessingLogo.jpeg"] {
 
 .top-body {
     padding: 20px;
-    height: 450px;
     background-color: #8080801c;
     margin-bottom: 20px;
     border-radius: 0 0 4% 4%;
     background:
         -webkit-radial-gradient(-19% center, circle, white 0, white 124px, transparent 50px),
-        -webkit-radial-gradient(119% center, circle, white 0, white 124px, transparent 50px) #8080801c;
+        -webkit-radial-gradient(119% center, circle, white 0, white 124px, transparent 50px) #8080800f;
     background-clip: padding-box;
 }
 
@@ -90,7 +89,6 @@ div .profile-links img {
 
 div .profile-picture {
     display: inline-block;
-    margin-top: -48px;
     margin-left: 130px;
 }
 
@@ -105,7 +103,7 @@ div .profile-description {
 
 div .profile-picture div {
     background-color: white;
-    color: #050e37;
+    color:#016db5;
     border-radius: 10%;
     position: relative;
     z-index: inherit;
@@ -129,7 +127,7 @@ div .profile-picture div {
 
 .profile-design2 {
     height: 50px;
-    width: 120px;
+    width: 90px;
     bottom: 30px;
     left: 400px;
     display: flex;
@@ -139,10 +137,9 @@ div .profile-picture div {
 }
 
 div .profile-picture img {
-    height: 350px;
-    width: 520px;
-    
-
+    height: auto;
+    width: 426px;
+    border-radius: 14px;
 }
 
 .margin-buttom {
@@ -152,7 +149,7 @@ div .profile-picture img {
 
 .brown-background {
     color: white;
-    background-color:  #050e37;
+    background-color:  rgb(51, 39, 144);
     display: inline-block;
     margin-bottom: 0;
 }
@@ -174,13 +171,8 @@ div .profile-description button {
     border-color: rgb(253, 253, 255);
     background-color:  rgb(253, 253, 255);
     margin-right: 15px;
-    border-color:#050e37;
+    border-color:rgb(51, 39, 144);
     border-width: 1px;
-}
-
-div .profile-description p span {
-    background-color:#B9732F;
-    color: white;
 }
 
 .personal-description {
@@ -193,12 +185,12 @@ div .profile-description p span {
 .button {
     transition-duration: 0.4s;
     cursor: pointer;
-    border-color: #050e37;
+    border-color: rgb(51, 39, 144);
 }
 
 .button :hover {
     color: white;
-    background-color:#050e37;
+    background-color: rgb(51, 39, 144);
 }
 
 div .buttom {
@@ -246,7 +238,7 @@ div .buttom {
     margin-right: 30px;
     height: 30px;
     border-radius: 5px;
-    border-color: #050e37;
+    border-color: rgb(51, 39, 144);
     border-color: rgb(253, 253, 255);
     border-width: 1px;
     background-color:  rgb(253, 253, 255);
@@ -258,7 +250,7 @@ div .buttom {
 .footer {
     height: 50px;
     width: 100vw;
-    background-color: #050e37;
+    background-color: #016db521;
     color: white;
     display: flex;
     align-items: center;
@@ -354,7 +346,7 @@ div .buttom {
 
 .switcher-two span:hover {
     transition: 1s;
-    color: #071451;
+    color: rgb(51, 39, 144);
     cursor: pointer;
 }
 
@@ -369,7 +361,7 @@ div .buttom {
 
 .switcher span:hover {
     transition: 1s;
-    color: #071451;
+    color: rgb(51, 39, 144);
 }
 
 .tech-list {
@@ -411,7 +403,7 @@ div .buttom {
 .projects {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #8080801c;
+    background-color: #8080800f;
     padding-top: 20px;
     padding-bottom: 20px;
 
