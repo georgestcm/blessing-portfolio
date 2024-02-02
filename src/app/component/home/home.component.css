@@ -53,7 +53,7 @@ div .top-header img[src="/assets/MBlogo.jpeg"] {
     border-radius: 0 0 4% 4%;
     background:
         -webkit-radial-gradient(-19% center, circle, white 0, white 124px, transparent 50px),
-        -webkit-radial-gradient(119% center, circle, white 0, white 124px, transparent 50px) #8080801c;
+        -webkit-radial-gradient(119% center, circle, white 0, white 124px, transparent 50px) #8080800f;
     background-clip: padding-box;
 }
 
@@ -103,7 +103,7 @@ div .profile-description {
 
 div .profile-picture div {
     background-color: white;
-    color: rgb(51, 39, 144);
+    color:#016db5;
     border-radius: 10%;
     position: relative;
     z-index: inherit;
@@ -139,6 +139,7 @@ div .profile-picture div {
 div .profile-picture img {
     height: auto;
     width: 426px;
+    border-radius: 14px;
 }
 
 .margin-buttom {
@@ -249,7 +250,7 @@ div .buttom {
 .footer {
     height: 50px;
     width: 100vw;
-    background-color: rgb(51, 39, 144);
+    background-color: #016db521;
     color: white;
     display: flex;
     align-items: center;
@@ -402,7 +403,7 @@ div .buttom {
 .projects {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #8080801c;
+    background-color: #8080800f;
     padding-top: 20px;
     padding-bottom: 20px;
 

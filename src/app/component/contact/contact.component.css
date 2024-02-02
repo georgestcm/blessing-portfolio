@@ -92,7 +92,7 @@ div.talk a {
 .footer {
     height: 50px;
     width: 100vw;
-    background-color: rgb(147, 100, 53);
+    background-color: #016db521;
     color: white;
     display: flex;
     align-items: center;
@@ -100,7 +100,7 @@ div.talk a {
 
 .footer1 {
     display: inline-block;
-    padding-left: 100px;
+    padding-left: 18px;
 }
 
 .footer2 {
