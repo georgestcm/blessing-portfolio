@@ -167,7 +167,7 @@ div .profile-description {
 
 div .profile-description span {
     display: inline-block;
-    margin: 0; 
+    margin: 0;
 }
 
 div .profile-description p span {
@@ -238,7 +238,7 @@ div .buttom {
 
 div.buttom h2 {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .project-image {
@@ -356,6 +356,12 @@ div.buttom h2 {
     transition: 1s;
 }
 
+.switcher span:hover {
+    transition: 1s;
+    color: #3964a5;
+    cursor: pointer;
+}
+
 .switcher-two span {
     font-size: 40px;
     color: black;
@@ -365,7 +371,7 @@ div.buttom h2 {
 
 .switcher-two span:hover {
     transition: 1s;
-    color: rgb(51, 39, 144);
+    color: #3964a5;
     cursor: pointer;
 }
 
@@ -387,7 +393,7 @@ div.buttom h2 {
 .tech-list {
     height: 492px;
     width: 100%;
-   
+
     border-radius: 1px;
     display: flex;
 }
@@ -459,6 +465,7 @@ div.buttom h2 {
     width: auto;
     position: relative;
   }
+
   .tech-list-content ul li {
     position: relative;
   }
@@ -495,4 +502,3 @@ div.buttom h2 {
     left: 88px;
     bottom: 259px;
   }
-
