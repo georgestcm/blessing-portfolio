@@ -541,16 +541,27 @@ div.buttom h2 {
     top: 35px;
     border-radius: 10px;
     width: inherit;
+    text-align: center;
   }
 
   .content h1 {
     color: white;
     text-align: center;
+    margin-top: 80px;
   }
 
   .content p {
     color: white;
     text-align: center;
+  }
+
+  .content a {
+    text-decoration: none;
+    color: #3964a5;
+    background-color: white;
+    padding: 7px;
+    border-radius: 12px;
+    cursor: pointer;
   }
 
   .fade-out {

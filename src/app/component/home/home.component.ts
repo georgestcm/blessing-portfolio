@@ -24,4 +24,8 @@ export class HomeComponent implements OnInit {
  hoverOff(value: string){
     this.currentProject = value
  }
+
+ openLink(url: string) {
+    window.open(url, '_blank').focus();
+ }
 }
