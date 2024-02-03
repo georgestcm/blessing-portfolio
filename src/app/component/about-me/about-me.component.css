@@ -1,0 +1,8 @@
+p.footer1 {
+    height: 50px;
+    width: 100vw;
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    align-items: center;
+}

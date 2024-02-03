@@ -23,6 +23,12 @@ div.profile-links {
  .font2 {
     margin-left: 35%;
 }
+
+div.font2 a {
+    font-size: 13px; 
+}
+
+
  div.profile-links a {
      text-decoration: none;
      color: black;
