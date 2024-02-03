@@ -44,38 +44,21 @@
         <h2 class="work">PROJECTS</h2>
         <p class="font1">My clients projects</p>
         <div class="projectsbackground">
-            <ul class="projects">
-                <li>
-                    <div class="project1 ">
-                        <a href="">
-                            <img class="project-image" src="/assets/datavisual Small.jpeg" alt="">
-                          </a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="project2 ">
-                        <a href="https://www.resifia.com/">
-                            <img class="project-image" src="/assets/desk-1024x576 Small.jpeg" alt="">
-                          </a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="project1 ">
-                        <a href="https://www.resifia.com/">
-                            <img class="project-image" src="/assets/datavisual Small.jpeg" alt="">
-                          </a>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="project2 ">
-                        <a href="/link/to/site">
-                            <img class="project-image" src="/assets/desk-1024x576 Small.jpeg" alt="">
-                          </a>
-                    </div>
-                </li>
+            <ul class="projects" >
+             <li (mouseover)="hoverOn('resifia')" (mouseout)="hoverOff('')">
+               <div class="initial">
+               <img class="project-image"  src="/assets/resifia.jpeg" alt="">
+            </div>
+            <div class="content" [ngClass]="currentProject ==='resifia' ? 'fade-in':'fade-out'" >
+                <h1>Resifia</h1>
+                <p>Resifia is a real estate marketplace</p>
+                <a href="https://www.resifia.com/"> View</a>
+            </div>
+             </li>
+            <li>
+            </li>
+            <div class="initial"></div>
+            <div class="content"></div>
             </ul>
         </div>
 

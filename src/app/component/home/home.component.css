@@ -243,8 +243,6 @@ div.buttom h2 {
 
 .project-image {
     margin-top: 20px;
-    height: 280px;
-    width: 280px;
     border-radius: 5px;
 }
 
@@ -427,19 +425,42 @@ div.buttom h2 {
 }
 
 .projectsbackground {
-    padding-left: 50px;
-    padding-right: 50px;
     background-color: #8f8d8d0f;
     padding-top: 20px;
     padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
     position: relative;
 
 }
 
 
+@media screen and (max-width: 429px) {
+    .projects {
+        flex-direction: column;
+    }
+}
 
+.projects {
+    display: flex;
+}
+
+.projects li {
+    height: 280px;
+    width: 280px;
+    background-color: #3964a5;
+    border-radius: 10px;
+}
+
+.projects li .initial {
+    height: inherit;
+    width: inherit;
+}
+
+.initial img {
+    height: inherit;
+    width: inherit;
+    position: relative;
+    bottom: 20px;
+}
 .projectsbackground ul{
   padding: 0;
   text-align: left;
@@ -501,4 +522,36 @@ div.buttom h2 {
   .tech-list-content ul li:nth-child(8){
     left: 88px;
     bottom: 259px;
+  }
+
+  .content {
+    background-color: #3964a5;
+    visibility: visible;
+    height: inherit;
+    position: absolute;
+    top: 35px;
+    border-radius: 10px;
+    width: inherit;
+  }
+
+  .content h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .content p {
+    color: white;
+    text-align: center;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 1000ms;
+  }
+
+  .fade-in {
+    visibility: visible;
+    opacity: 0.9;
+    transition: visibility 0s linear 0s, opacity 1000ms;
   }
