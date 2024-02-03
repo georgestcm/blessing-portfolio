@@ -67,7 +67,7 @@ div.profile-links {
     height: 20px;
     width: 20px;
     cursor: pointer;
-    
+
 }
 
 
@@ -75,5 +75,13 @@ div.profile-links {
 div.links a {
     margin-right: 30px;
     color: black;
+    text-decoration: solid;
+    transition: 0.5s;
+}
+
+div.links a:hover {
+    margin-right: 30px;
+    color: #3964a5;
+    transition: 0.5s;
     text-decoration: solid;
 }
