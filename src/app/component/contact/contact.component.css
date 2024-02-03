@@ -90,17 +90,24 @@ div.talk a {
 }
 
 .footer {
-    height: 50px;
+    height: 60px;
     width: 100vw;
-    background-color: #016db521;
+    background-color: #ffffff;
     color: white;
     display: flex;
     align-items: center;
+    background-color: rgb(46, 90, 171);
 }
 
-.footer1 {
+.footer1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
     display: inline-block;
-    padding-left: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: white;
+    
 }
 
 .footer2 {
