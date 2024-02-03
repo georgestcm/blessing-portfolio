@@ -39,6 +39,30 @@ margin-left: 500px;
 margin-top: 20px;
 }
 
+
+@media screen and (max-width: 904px) {
+    .illustration {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .illustration img {
+        margin-left: 0;
+    }
+
+    .font1 {
+        padding: 12px;
+    }
+
+    .timeline {
+        flex-direction: column;
+    }
+    .certification {
+        margin-bottom: 40px;
+    }
+}
+
 div.centerdiv p {
     text-align: center;
 }
@@ -52,8 +76,9 @@ div.timeline {
     height: auto;
     margin-bottom: 30px;
     justify-content: center;
-
+    align-items: center;
 }
+
 
 div.timeline img{
     height: 100px;
@@ -71,7 +96,8 @@ div.timeline img{
     align-items: center;
     background-color: rgb(46, 90, 171);
     margin-top: 120px;
-
+    position: fixed;
+ bottom: 0;
 }
 
 div.footer p img[src="/assets/logo.png"] {
