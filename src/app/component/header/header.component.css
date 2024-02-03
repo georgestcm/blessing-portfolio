@@ -6,12 +6,13 @@
     border-bottom: 1px solid #80808012;
 }
 
-div.top-header img {
+div.top-header img[src="/assets/logo.png"] {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     display: inline-block;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 div.profile-links {
@@ -31,8 +32,6 @@ div.profile-links {
      margin-left: 20px;
      align-items: end;
      justify-items: end;
-     height: 25px;
-     width: auto;
  }
 
 
@@ -68,7 +67,7 @@ div.profile-links {
     height: 20px;
     width: 20px;
     cursor: pointer;
-
+    
 }
 
 
@@ -76,6 +75,5 @@ div.profile-links {
 div.links a {
     margin-right: 30px;
     color: black;
-    text-shadow: #80808012;
     text-decoration: solid;
 }
