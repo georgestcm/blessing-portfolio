@@ -1,17 +1,64 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: sans-serif 'Times New Roman';
 }
 
 
+.container {
+    height: 100%;
+    width: 100%;
+}
 
+hr {
+    margin: 0;
+    background-color: blue;
+
+}
+
+
+.font1 {
+    font-size: 15px;
+   color: rgb(113, 113, 113);
+}
+
+.font2 {
+   margin-left: 35%
+   rgb(113, 113, 113);
+}
+
+.font3 {
+   font-size: 20px;
+   font-weight: bold;
+}
 
 .illustration img{
- height: 10px;
- width: 20px;
+ height: 200px;
+ width: 400px;
+margin-left: 500px;
+margin-top: 20px;
 }
 
+div.centerdiv p {
+    text-align: center;
+}
 
+div.centerdiv p.font1 {
+    margin-bottom: 50px;
+}
+
+div.timeline {
+    display: flex;
+    height: auto;
+    margin-bottom: 30px;
+    justify-content: center;
+
+}
+
+div.timeline img{
+    height: 100px;
+    width: 200px;
+}
 
 
 
@@ -23,7 +70,8 @@ body{
     display: flex;
     align-items: center;
     background-color: rgb(46, 90, 171);
-    margin-top: 100%;
+    margin-top: 120px;
+
 }
 
 div.footer p img[src="/assets/logo.png"] {
