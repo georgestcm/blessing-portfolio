@@ -107,7 +107,7 @@ div.talk a {
     margin-left: 20px;
     cursor: pointer;
     background-color: white;
-    
+
 }
 
 .footer2 {
@@ -172,4 +172,5 @@ button {
 .footer img {
     height: 30px;
     border-radius: 50%;
+    width: auto;
 }
