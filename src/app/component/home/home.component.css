@@ -448,7 +448,7 @@ div.content a:hover {
     .projects li {
         margin-bottom: 20px;
         width: 94% !important;
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
     .initial {
@@ -482,7 +482,7 @@ div.content a:hover {
     width: 300px;
     height: 300px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 50px;
   }
 
 
