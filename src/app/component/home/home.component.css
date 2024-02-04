@@ -261,6 +261,10 @@ div.buttom h2 {
     background-color:  rgb(253, 253, 255);
 }
 
+div.content a:hover {
+    font-weight: bold;
+}
+
 
 
 
