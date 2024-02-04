@@ -45,21 +45,57 @@
         <p class="font1">My clients projects</p>
         <div class="projectsbackground">
             <ul class="projects" >
-             <li (mouseover)="hoverOn('resifia')" (mouseout)="hoverOff('')">
-               <div class="initial">
-               <img class="project-image"  src="/assets/resifia.jpeg" alt="">
-            </div>
-            <div class="content" [ngClass]="currentProject ==='resifia' ? 'fade-in':'fade-out'" >
-                <h1>Resifia</h1>
-                <p>Resifia is a real estate marketplace.</p>
-                <a (click)="openLink('https://www.resifia.com/')"> View</a>
-            </div>
-             </li>
-            <li>
-            </li>
+                <div>
+                    <li (mouseover)="hoverOn('resifia')" (mouseout)="hoverOff('')">
+                        <div class="initial">
+                         <img class="project-image"  src="/assets/resifia.jpeg" alt="">
+                        </div>
+                        <div class="content" [ngClass]="currentProject ==='resifia' ? 'fade-in':'fade-out'" >
+                          <h1>Resifia</h1>
+                          <p>Resifia is a real estate marketplace.</p>
+                          <a (click)="openLink('https://www.resifia.com/')"> View</a>
+                        </div>
+                      </li>
+         
+                      <li (mouseover)="hoverOn('Power Bi visualisations')" (mouseout)="hoverOff('')">
+                         <div class="initial">
+                          <img class="project-image"  src="/assets/Dashboard.webp" alt="">
+                         </div>
+                         <div class="content" [ngClass]="currentProject ==='Power Bi visualisations' ? 'fade-in':'fade-out'" >
+                          <h1>Employee Performance </h1>
+                          <p>Analysis of employee performance metrics, charts, graphs, and maps data visualization, statistical analysis and predictive modeling for turnover rates.</p>
+                          <a (click)="openLink('https://github.com/BlessingMbony/Power-Bi-HR-Employee-Performance-Tracker/tree/main/Visualization%20(Screenshots)')"> View</a>
+                         </div>
+                       </li>
+                       
+                       <li (mouseover)="hoverOn('Manifacturing-Efficiency-Analyzer')" (mouseout)="hoverOff('')">
+                         <div class="initial">
+                          <img class="project-image"  src="/assets/Dashboard.webp" alt="">
+                         </div>
+                         <div class="content" [ngClass]="currentProject ==='Manifacturing-Efficiency-Analyzer' ? 'fade-in':'fade-out'" >
+                          <h1>Employee Performance </h1>
+                          <p>Manufacturing Process Efficiency Analyzer with the capability to monitor manufacturing processes, track efficiency metrics, and predict maintenance needs.</p>
+                          <a (click)="openLink('https://github.com/BlessingMbony/Manifacturing-Efficiency-Analyzer/tree/main/Dashboard%20Screenshots%20and%20Features')"> View</a>
+                         </div>
+                       </li>
+         
+                       <li (mouseover)="hoverOn('Power Bi visualisations')" (mouseout)="hoverOff('')">
+                         <div class="initial">
+                          <img class="project-image"  src="/assets/Dashboard.webp" alt="">
+                         </div>
+                         <div class="content" [ngClass]="currentProject ==='Power Bi visualisations' ? 'fade-in':'fade-out'" >
+                          <h1>Employee Performance </h1>
+                          <p>Analysis of employee performance metrics, charts, graphs, and maps data visualization, statistical analysis and predictive modeling for turnover rates.</p>
+                          <a (click)="openLink('https://github.com/BlessingMbony/Power-Bi-HR-Employee-Performance-Tracker/tree/main/Visualization%20(Screenshots)')"> View</a>
+                         </div>
+                       </li>
+                </div>
+            
             <div class="initial"></div>
             <div class="content"></div>
             </ul>
+
+            
         </div>
 
 

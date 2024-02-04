@@ -388,7 +388,7 @@ div.content a:hover {
 
 .switcher span:hover {
     transition: 1s;
-    color: rgb(51, 39, 144);
+    color: rgb(39, 88, 144);
     cursor: pointer;
 }
 
@@ -456,12 +456,6 @@ div.content a:hover {
     display: flex;
 }
 
-.projects li {
-    height: 280px;
-    width: 280px;
-    background-color: #3964a5;
-    border-radius: 10px;
-}
 
 .projects li .initial {
     height: inherit;
@@ -483,15 +477,8 @@ div.content a:hover {
     width: 300px;
     height: 300px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 5px;
   }
-
-  .projectsbackground ul li:nth-child(1) {
-    background-image: url('/assets/resifia.jpeg');
-    background-size: contain;
-    border-radius: 10px;
-  }
-
 
 
   .logo {
