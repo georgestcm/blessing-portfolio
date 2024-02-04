@@ -125,9 +125,11 @@ hr.shortline {
     display: inline-block;
 }
 
-div.certif img {
-    height: 300px;
-    width: 300px;
+div.certif img { 
+    
+    margin-right: 10px;
+    height: 200px !important;
+    width: 250px !important;
 }
 
 @keyframes mymove {
