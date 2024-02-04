@@ -90,4 +90,5 @@ div.links a:hover {
     color: #3964a5;
     transition: 0.5s;
     text-decoration: solid;
+    font-weight: bold;
 }
