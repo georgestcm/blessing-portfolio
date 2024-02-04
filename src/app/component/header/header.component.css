@@ -25,7 +25,7 @@ div.profile-links {
 }
 
 div.font2 a {
-    font-size: 13px; 
+    font-size: 13px;
 }
 
 
@@ -52,6 +52,17 @@ div.font2 a {
     margin-right: 15px;
     }
 
+    .sidebar {
+        display: block !important;
+    width: 70%;
+    height: 100vh;
+    background-color: #000000d4;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    }
+
     .profile-links {
         display: none;
     }
@@ -67,7 +78,9 @@ div.font2 a {
     display: none;
 }
 
-
+.sidebar {
+    display: none;
+}
 
 .logo-size {
     height: 20px;
@@ -83,6 +96,7 @@ div.links a {
     color: black;
     text-decoration: solid;
     transition: 0.5s;
+    font-weight: bold;
 }
 
 div.links a:hover {
@@ -91,4 +105,27 @@ div.links a:hover {
     transition: 0.5s;
     text-decoration: solid;
     font-weight: bold;
+}
+
+.close-icon {
+    display: flex;
+    justify-content: right;
+}
+
+.close-icon img {
+    padding: 20px;
+    height: 16px;
+}
+
+.links-two a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+
+.links-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }

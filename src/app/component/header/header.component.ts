@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+   showSideBar: boolean = true;
   constructor() { }
 
   ngOnInit() {
   }
 
+  showHideSidebar(){
+    this.showSideBar = !this.showSideBar;
+  }
 }

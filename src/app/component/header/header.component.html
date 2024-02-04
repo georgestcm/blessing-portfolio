@@ -9,9 +9,18 @@
         <a href="https://www.linkedin.com/in/blessingmbony" target=”_blank”><img class="logo-size" src="/assets/linkedin-icon.png" alt="LinkedIn Profile"></a>
         <a href="https://github.com/BlessingMbony" target=”_blank”><img class="logo-size" src="/assets/github.png" alt="LinkedIn Profile"></a>
     </div>
-    <div class="mobile-menu">
+    <div class="mobile-menu" *ngIf="showSideBar" (click)="showHideSidebar()">
         <span class="material-symbols-outlined">
             menu
-            </span>
+    </span>
+    </div>
+    <div class="sidebar" *ngIf="!showSideBar" (click)="showHideSidebar()">
+        <div class="close-icon">
+            <img src="/assets/close.png"/>
+    </div>
+    <div class="links-two">
+        <a routerLink="/about-me">ABOUT ME</a>
+    <a href="assets/BLE-CV.pdf" target=”_blank” >RESUME</a>
+    <a [routerLink]="['/contact']">CONTACT</a>
     </div>
 </div>

@@ -97,6 +97,9 @@ div.talk a {
     display: flex;
     align-items: center;
     background-color: rgb(46, 90, 171);
+    position: fixed;
+    bottom: 0;
+    left: -2px;
 }
 
 .footer1 img{
@@ -181,4 +184,27 @@ button:hover{
     height: 30px;
     border-radius: 50%;
     width: auto;
+}
+
+@media screen and (max-width: 425px){
+
+    .container {
+        padding: 12px;
+    }
+    textarea {
+        left: 0;
+        width: 100%;
+    }
+
+    .full-name {
+        text-align: left;
+    }
+
+    .email {
+        text-align: left;
+    }
+
+    input {
+        width: 100% !important;
+    }
 }
