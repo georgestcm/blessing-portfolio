@@ -60,7 +60,7 @@ div.education img {
 
 div.education p {
     color: rgb(53, 102, 192);
-    
+
 
 }
 
@@ -71,7 +71,7 @@ div.profession img {
 
 div.profession p {
     color: rgb(53, 102, 192);
-    
+
 
 }
 
@@ -82,7 +82,7 @@ div.certification img {
 
 div.certification p {
     color: rgb(53, 102, 192);
-    
+
 
 }
 
@@ -106,7 +106,7 @@ hr.shortline {
 }
 
 .trajectory  {
- 
+
     margin-left: 350px;
     margin-top: 0px;
 }
@@ -125,8 +125,8 @@ hr.shortline {
     display: inline-block;
 }
 
-div.certif img { 
-    
+div.certif img {
+
     margin-right: 10px;
     height: 200px !important;
     width: 250px !important;
@@ -159,6 +159,7 @@ div.certif img {
 
 div.certification {
         margin-bottom: 30px;
+        text-align: center;
     }
 }
 
@@ -223,4 +224,24 @@ div.footer p img[src="/assets/logo.png"] {
     float: right;
     display: inline-block;
     padding-right: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .shortline {
+        display: none !important;
+    }
+    .circle {
+        display: none !important;
+    }
+    .inline img {
+        animation: none !important;
+    }
+
+    .certification img {
+        animation: none !important;
+    }
+
+    .trajectory {
+        margin: 0;
+    }
 }
