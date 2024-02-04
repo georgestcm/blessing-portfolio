@@ -442,12 +442,17 @@ div.content a:hover {
 @media screen and (max-width: 429px) {
     .projects {
         flex-direction: column;
+        text-align: center !important;
     }
 
     .projects li {
         margin-bottom: 20px;
-        width: 100%;
+        width: 94% !important;
         margin-left: 0;
+    }
+
+    .initial {
+        width: 100% !important;
     }
 
 }
