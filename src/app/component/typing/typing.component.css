@@ -1,0 +1,20 @@
+.blink {
+    border-right-style: solid;
+    animation: 1s blink infinity;
+  }
+
+  @keyframes blink {
+    to {
+      opacity: 0;
+    }
+  }
+
+
+  .text {
+    display: inline-block;
+    margin: 0;
+    color: white !important;
+    background-color: #3964a5;
+    font-size: 35px !important;
+    font-weight: bold;
+  }

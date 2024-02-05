@@ -11,6 +11,7 @@ import { AboutMeComponent } from './component/about-me/about-me.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { TypingComponent } from './component/typing/typing.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     ContactComponent,
     HeaderComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    TypingComponent
   ],
   imports: [
     BrowserModule,
