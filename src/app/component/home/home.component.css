@@ -439,20 +439,30 @@ div.content a:hover {
 }
 
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 560px) {
     .projects {
         flex-direction: column;
         text-align: center !important;
     }
 
+     .projectsbackground li {
+        display: list-item !important;
+     }
     .projects li {
         margin-bottom: 20px;
         width: 94% !important;
-        margin-left: 0 !important;
+        margin-left: 10px !important;
+        list-style: none;
     }
 
     .initial {
         width: 100% !important;
+    }
+    .content {
+        position: relative !important;
+    bottom: 380px !important;
+    width: 100% !important;
+    top: unset !important;
     }
 
 }
