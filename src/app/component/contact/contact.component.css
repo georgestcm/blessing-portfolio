@@ -186,7 +186,7 @@ button:hover{
     width: auto;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 600px){
 
     .container {
         padding: 12px;
