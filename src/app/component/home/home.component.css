@@ -460,7 +460,7 @@ div.content a:hover {
     }
     .content {
         position: relative !important;
-    bottom: 380px !important;
+    bottom: 301px !important;
     width: 100% !important;
     top: unset !important;
     }
@@ -548,17 +548,24 @@ div.content a:hover {
     border-radius: 10px;
     width: inherit;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .content h1 {
+  .content h3 {
     color: white;
     text-align: center;
-    margin-top: 80px;
+    margin-bottom: 10px;
   }
 
   .content p {
     color: white;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
   }
 
   .content a {
