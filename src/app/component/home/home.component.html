@@ -6,7 +6,7 @@
                 <div class="profile-design1 bng profile-design font3"> <span class="move-right">2+</span> <br>
                 <p class="font1 font10">Years Experience</p></div>
                 <img src="/assets/profile-picture.png" alt="Profile Picture">
-                <div class="profile-design2 profile-design font2"> <a href="http://localhost:4200/contact">Hire me</a></div>
+                <div class="profile-design2 profile-design font2"> <a [routerLink]="['/contact']">Hire me</a></div>
             </div>
             <div class="profile-description" *ngIf="showTechListSwitcher">
                 <p class="font3 margin-buttom">Hi, <br> I'm Blessing Mbony and <br>I am a <span class="color-white blue-background font3 margin-buttom">Business Data Analyst.</span></p>
@@ -56,7 +56,7 @@
                           <a (click)="openLink('https://www.resifia.com/')"> View</a>
                         </div>
                       </li>
-         
+
                       <li (mouseover)="hoverOn('Power Bi visualisations')" (mouseout)="hoverOff('')">
                          <div class="initial">
                           <img class="project-image"  src="/assets/Power-BI.png" alt="">
@@ -67,7 +67,7 @@
                           <a (click)="openLink('https://github.com/BlessingMbony/Power-Bi-HR-Employee-Performance-Tracker/tree/main/Visualization%20(Screenshots)')"> View</a>
                          </div>
                        </li>
-                       
+
                        <li (mouseover)="hoverOn('Manifacturing-Efficiency-Analyzer')" (mouseout)="hoverOff('')">
                          <div class="initial">
                           <img class="project-image"  src="/assets/power-bi-blue.webp" alt="">
@@ -78,7 +78,7 @@
                           <a (click)="openLink('https://github.com/BlessingMbony/Manifacturing-Efficiency-Analyzer/tree/main/Dashboard%20Screenshots%20and%20Features')"> View</a>
                          </div>
                        </li>
-         
+
                        <li (mouseover)="hoverOn('Financial-Performance-Analysis')" (mouseout)="hoverOff('')">
                          <div class="initial">
                           <img class="project-image"  src="/assets/dash.webp" alt="">
@@ -90,12 +90,12 @@
                          </div>
                        </li>
                 </div>
-            
+
             <div class="initial"></div>
             <div class="content"></div>
             </ul>
 
-            
+
         </div>
 
 
